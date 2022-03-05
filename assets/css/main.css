@@ -1,0 +1,284 @@
+@CHARSET "ISO-8859-1";
+@import "bootstrap.min.css";
+@import "owl.carousel.min.css";
+@import "responsive.css";
+@import "animate.css";
+@import "all.min.css";
+@import "theme-default.css";
+@import "style.css";
+@import "widget.css";
+
+.single-feature-thumb img{width:52%}
+.header-top-area {height: 56px;background: #f3f3f3;}
+.header-top-area.style-two:before {background: #dcdcdc;}
+.header-top-left-single-item a,.header-top-right-icon-area ul li a  {color: #000;}
+.header-top-right-icon-area ul li .btn{color: #fff}
+.header-second-line{font-size:12px;text-align:right}
+.lineul li{display:inline-block;margin-top: 5px}
+.lineul li a{padding: 0px 10px;color:#000}
+.my-float{margin-top:16px;}
+.about-icon i{padding-top:12px}
+.process-number:before {top: -13px;left: -13px;height: 79px;width: 79px;}
+.pulse {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #08ea3c;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(9,170,7, 0.4);
+  animation: pulse 1.5s infinite;
+}
+.pulselogo {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    animation: pulselogo 1.5s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+.pulse i{padding: 13px 13px 0px 0px;font-size: 1.8em;color: #fff;}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(9,170,7, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(9,170,7, 0.1);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(9,170,7, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(9,170,7, 0.4);
+    box-shadow: 0 0 0 0 rgba(9,170,7, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(9,170,7, 0.1);
+      box-shadow: 0 0 0 10px rgba(9,170,7, 0.1);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(9,170,7, 0);
+      box-shadow: 0 0 0 0 rgba(9,170,7, 0);
+  }
+}
+@-webkit-keyframes pulselogo {
+  0% {
+    -webkit-box-shadow: 0 0 0 1px rgb(226 30 37);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 20px rgba(9,170,7, 0.1);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(9,170,7, 0);
+  }
+}
+@keyframes pulselogo {
+  0% {
+    -moz-box-shadow: 0 0 0 1px rgb(226 30 37);
+    box-shadow: 0 0 0 1px rgb(226 30 37);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 20px rgba(9,170,7, 0.1);
+      box-shadow: 0 0 0 20px rgba(9,170,7, 0.1);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(9,170,7, 0);
+      box-shadow: 0 0 0 0 rgba(9,170,7, 0);
+  }
+}
+
+.mm-social-icon span a .fab{padding-top:6px}
+.menu-toggle {z-index: 99999;}
+.logo img{max-height: 88px;margin-top: 2px}
+.menu-wrapper.style-two {padding: 0px !important;}
+.fa-link{padding-top: 20px;}
+.inline li{padding:5px 15px;display:inline-block;font-size: 14px;margin: 3px 5px;}
+i{font-style: italic;}
+.services-carousel-thumb img {height: 150px;}
+.process-single-thumb img{height:170px;width:170px}
+.single-brand img {max-width: 45%;}
+.about-section.style-elevent .section-thumb {right: 0px;}
+.uk-sticky-fixed .search-box-btn.search-box-outer i {color: #fd9b00;}
+.carousel-slider-section.style-nine .carousel-slider-content p {color: #ffffff;}
+.slidertext{background: #00000080;
+    padding: 10px 30px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.accordion>.card>.card-header {cursor: pointer;}
+.search-box-btn.search-box-outer {margin-top: 33px;}
+.services-content-title h2 {font-size: 20px;padding: 0px;margin: 0px;}
+.header-top-area.style-two .align-items-center {padding: 0px 0px;}
+.process-single-thumb:before {background: rgb(255 60 0 / 10%);}
+.menu-toggle .close_bar, .menu-toggle .open_bar {top: 12px;}
+@media only screen and (min-width: 220px) and (max-width: 480px){
+	.carousel-slider-section.style-nine .btn-common a{padding:14px 20px}
+	header .container {padding-left: 5px !important;}
+}
+@media only screen and (max-width: 400px){
+	.menu-wrapper nav {height: 100vh;background: #fff;top: 54px;z-index:90}
+	.menu-wrapper nav ul li a {background-color: #ffffff;}
+}
+@media only screen and (min-width: 400px) and (max-width: 480px){
+	.menu-wrapper nav {height: 100vh;background: #fff;top: 65px;z-index:90}
+	.menu-wrapper nav ul li a {background-color: #ffffff;}
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+	.menu-wrapper nav{top:75px}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.menu-wrapper nav {height: 100vh;background: #fff;top: 85px;padding-top: 30px;}
+	.menu-wrapper nav ul li a {background-color: #ffffff;}
+}
+@media (min-width: 768px){
+	.menu-wrapper nav {padding-top: 30px;padding-bottom: 30px;}
+}
+@media (max-width: 768px){
+	.footer-quick-link-list ul li{margin-left:0px}
+	.footer-quick-link-list ul li:before{content:none}
+	hr {margin: 10px 0;}
+	.search-box-btn.search-box-outer {margin-top: 44px;margin-right: 7px;}
+	.carousel-slider-section.style-nine .carousel-slider2 {height: 499px !important}
+	.breadcumb-content {
+    position: absolute;
+    top: 0px;
+    transform: none;
+    padding: 80px 0px;}
+	.breadcumb-area h3{font-size: 23px !important;}
+	.breadcumb-content ul li{margin:0px}
+	.breadcumb-content h1{margin-bottom:5px}
+}
+.uk-sticky-fixed {
+    z-index: 980;
+    box-sizing: border-box;
+    margin: 0!important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+.breadcumb-area {height: 270px !important;}
+hr {margin: 32px 0;padding: 0px;border-bottom: 1px solid #bcccf7d6;}
+.menu-wrapper ul li, .header-src-btn {z-index: 999;}
+.footer.style-ten.upper .footer-quick-link-list ul li {margin-bottom: 14px;line-height: 1.4;}
+.uk-sticky[class*=uk-animation-] {animation-duration: .2s}
+.uk-sticky.uk-animation-reverse {animation-duration: .2s}
+.highlight{color: #fd9b00 !important}
+.hero-shape-one1 {position:absolute;z-index:1;right: 57px;top: 0px;}
+.hero-shape-two2 {position:absolute;z-index:1;right: 107px;top: 50px;}
+.footer.style-ten.upper {background-image: linear-gradient(to top,#ffadba 0%,#a0c6ff 99%,#03884b 100%)}
+.footer,.footer p,.footer a,.footer h3,.footer h5{color:#000 !important}
+.footer-quick-link-list ul li:before {background: #f00;}
+#qteform8 label{font-size:14px;margin: 0.4em 0 0;}
+ul li a.active{color:#fd9b00 !important}
+#faboverlay {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 78%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in;
+  will-change: opacity;
+}
+#faboverlay.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+#hamburger {
+  z-index: 99999;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 5%;
+  right: 5%;
+  background-color: #FF5722;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(10, 10, 10, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+#hamburger .icon-bar {
+  display: block;
+  background-color: #FFFFFF;
+  width: 22px;
+  height: 2px;
+  transition: all 0.3s ease-in-out;
+}
+#hamburger .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+.fabnav {
+  z-index: 99991;
+  position: fixed;
+  bottom: 5.5%;
+  right: 5.5%;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibilty: hidden;
+  opacity: 0;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.48);
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.material-icons {
+  font-size: 32px;
+}
+
+#whatsapp.show {
+  transform: translateY(-125%);
+}
+
+#phone.show {
+  transform: translateY(-250%);
+}
+
+#mail.show {
+  transform: translateY(-375%);
+}
+
+#share.show {
+  transform: translateY(-500%);
+}
+
+#hamburger.show {
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.48);
+}
+#hamburger.show #wrapper {
+  transition: transform 0.4s ease-in-out;
+  transform: rotateZ(90deg);
+}
+#hamburger.show #one {
+  transform: translateY(6px) rotateZ(45deg) scaleX(0.9);
+}
+#hamburger.show #thr {
+  transform: translateY(-6px) rotateZ(-45deg) scaleX(0.9);
+}
+#hamburger.show #two {
+  opacity: 0;
+}
+
+.fabnav.show {
+  visibility: visible;
+  opacity: 1;
+}
