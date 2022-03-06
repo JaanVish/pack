@@ -282,3 +282,20 @@ ul li a.active{color:#fd9b00 !important}
   visibility: visible;
   opacity: 1;
 }
+
+.custom-bkg.bkg-dark-blue{
+  background-color: #2c3741;
+}
+
+.page-content.column-img-bkg{
+  padding: 0;
+}
+
+.custom-col-padding-both {
+  padding: 120px 70px;
+}
+
+@media (min-width: 992px)
+.col-md-offset-2 {
+    margin-left: 16.66666667%;
+}
