@@ -299,3 +299,24 @@ ul li a.active{color:#fd9b00 !important}
 .col-md-offset-2 {
     margin-left: 16.66666667%;
 }
+
+.service-list li {
+  list-style: none;
+  width: 100%;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.service-list li .icon-container {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+.img-bkg01{
+  background-image: url('../img/img-bkg01.jpg');
+}
+
+*[class*="img-bkg"] {
+  background-size: cover;
+}
